@@ -1,0 +1,27 @@
+Part 1: Get the property information.
+
+Here is the sample url, that we will be using.
+https://www.zillow.com/homedetails/236-Acadia-Ter-Celebration-FL-34747/69314172_zpid/
+
+I need you to build a scrapper that will go to a listing on Zillow and grab the following:
+
+- Download all photos and video in the largest size
+- Listing Price//
+- Address//
+- Bedrooms//
+- Bathrooms//
+- Sqft//
+- Year Built//
+- Lot size//
+- Description//
+- Listing provided by information
+- MLS#//
+- All Facts & Features//
+- All Property information //
+- Grab the breadcrumb navigation ie Florida • Osceola County • Kissimmee • 34747 • North Village
+
+I need you to save this information into a mysql database using the MLS# as a unique key and save the images to a specific folder on the server.
+
+This need to run on a basic digital ocean droplet
+
+listingoffices
